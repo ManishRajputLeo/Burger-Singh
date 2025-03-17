@@ -3,7 +3,7 @@ package com.manish.entity;
 import jakarta.persistence.*;
 
 @Entity
-@Table(name = "menu_items")  // Optional: Specify table name
+@Table(name = "menu_items")  
 public class MenuItem {
     
     @Id
@@ -15,12 +15,12 @@ public class MenuItem {
     private String name;
     
     @Column(nullable = false)
-    private Integer quantity;  // Changed from String to Integer
+    private Integer quantity;  
     
     @Column(nullable = false)
-    private Double price;  // Changed from String to Double
+    private Double price; 
 
-    // Constructors
+
     public MenuItem() {super();}
 
     public MenuItem(int id, String name, Integer quantity, Double price) {
@@ -52,7 +52,7 @@ public class MenuItem {
         return quantity;
     }
 
-    public void setQuantity(Integer quantity) {  // Fixed setter method
+    public void setQuantity(Integer quantity) {  
         this.quantity = quantity;
     }
 
@@ -60,7 +60,7 @@ public class MenuItem {
         return price;
     }
 
-    public void setPrice(Double price) {  // Changed from String to Double
+    public void setPrice(Double price) {  
         this.price = price;
     }
 
