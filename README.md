@@ -1,2 +1,2 @@
 # Burger-Singh
-This is food ordering platform
+This is a food ordering platform where customers can place, retrieve, update, and cancel orders.
