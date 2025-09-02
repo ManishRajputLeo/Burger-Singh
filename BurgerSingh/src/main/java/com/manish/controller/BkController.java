@@ -51,10 +51,10 @@ public class BkController {
 	
 	/* Get The Order List */
 	
-//	@GetMapping("/order-list")
-//	public String orderListing(){
-//		return "OrderLists";
-//	}
+/*	@GetMapping("/order-list")
+	public String orderListing(){
+		return "OrderLists";
+	}*/
 	
 	/* Get the Data From Form */
 	
@@ -141,3 +141,4 @@ public class BkController {
 
 	
 }
+
